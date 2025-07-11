@@ -4,19 +4,6 @@ Esta fase utiliza a metodologia GQM (Goal–Question–Metric) para estruturar a
 
 Conforme previsto na ISO/IEC 25040, a avaliação pode ser conduzida sem a participação direta de usuários finais, utilizando métodos como inspeção técnica, análise de execução e revisão de documentação.
 
-As caractetisticas e o nível de empenha nas avaliações é de 1 a 5, sendo 1 zero interesse 5 muito interesse. Representado na tabela abaixo:
-
-| Característica          | Ênfase |
-|-------------------------|--------|
-| Adequação Funcional     | 5      |
-| Portabilidade           | 5      |
-| Manutenibilidade        | 3      |
-| Eficiência de Desempenho| 1      |
-| Confiabilidade          | 1      |
-| Segurança               | 1      |
-| Compatibilidade         | 1      |
-| Usabilidade             | 0      |
-
 
 ---
 
