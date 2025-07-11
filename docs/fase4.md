@@ -1,8 +1,8 @@
-##  Objetivo da Execução
+##  **Objetivo da Execução**
 
 Executar a avaliação da qualidade do sistema AgroMart de forma sistemática e rastreável, com base nas métricas definidas na Fase 2 (GQM). Esta etapa visa transformar os objetivos e hipóteses formuladas em observações concretas, coletadas por meio de testes, análises e inspeções. O propósito é obter evidências quantitativas e qualitativas que apoiem decisões sobre a evolução do software, mesmo sem a participação de usuários finais, conforme permitido pela ISO/IEC 25040.
 
-##  Método de Avaliação
+##  **Método de Avaliação**
 
 A avaliação será conduzida por meio de testes direcionados, inspeções técnicas e observações internas da equipe avaliadora. As métricas especificadas no modelo GQM serão aplicadas sobre os seguintes tipos de atividades:
 
@@ -13,14 +13,14 @@ A avaliação será conduzida por meio de testes direcionados, inspeções técn
 
 Serão utilizados tanto métodos **quantitativos** (tempo, número de erros, etapas de instalação) quanto **qualitativos** (percepção de clareza, fluidez e robustez do sistema), com foco em duas subcaracterísticas principais: **Confiabilidade** e **Usabilidade**.
 
-## 1️ Instalabilidade
+## 1️ **Instalabilidade**
 
-###  Método de Avaliação  
+###  **Método de Avaliação**  
 A avaliação foi realizada a partir da tentativa de instalação completa do sistema AgroMart, seguindo exclusivamente as instruções fornecidas na documentação disponível no repositório. O processo incluiu a instalação tanto do back-end (Strapi) quanto do front-end (aplicativo mobile via ExpoGo). Foram analisados o número de etapas necessárias, a existência de erros não previstos, o tempo total de instalação e os ajustes manuais exigidos.
 
 ---
 
-###  Resultados Observados
+###  **Resultados Observados**
 
 **Back-end (Strapi):**
 
@@ -44,7 +44,7 @@ A avaliação foi realizada a partir da tentativa de instalação completa do si
 
 ---
 
-###  Interpretação dos Resultados
+###  **Interpretação dos Resultados**
 
 - **H1** (A instalação pode ser concluída com base exclusivamente na documentação disponível): ❌ Refutada. A documentação não cobre todos os passos reais, exigindo ações fora do previsto.
 
@@ -54,20 +54,20 @@ A avaliação foi realizada a partir da tentativa de instalação completa do si
 
 ---
 
-###  Conclusão
+###  **Conclusão**
 
 O processo de instalação do sistema AgroMart apresenta fragilidades significativas na documentação e suporte ao usuário. A ausência de instruções completas e a necessidade de soluções improvisadas comprometem a **Instalabilidade**, especialmente para perfis não desenvolvedores. O tempo excessivo para instalação, aliado à ausência de informações sobre requisitos críticos como ExpoGo e APKs personalizados, reforça a necessidade de revisão do material de suporte e simplificação do processo.
 
 
 
-## 2️ Execução da Avaliação – Adequação Funcional
+##  **2 Execução da Avaliação – Adequação Funcional**
 
-###  Objetivo
+###  **Objetivo**
 Avaliar se as funcionalidades presentes no AgroMart são apropriadas e suficientes para atender às principais necessidades dos usuários e desenvolvedores.
 
 ---
 
-###  M1 – Percentual de funcionalidades esperadas implementadas
+### **M1 – Percentual de funcionalidades esperadas implementadas**
 
 Foram definidos **5 requisitos funcionais essenciais** com base no escopo do AgroMart serão esses: criar conta, cadstro de enderço, comprar cestas, relatórios, login e boões home, busca, meus dados, sair, adicionar.
 
@@ -97,7 +97,7 @@ tabela dos resultados:
 
 ---
 
-### 📏 M2 – Número de funcionalidades com erros ou comportamento inesperado
+###  **M2 – Número de funcionalidades com erros ou comportamento inesperado**
 
 Durante a avaliação prática, foram identificados os seguintes problemas:
 
@@ -112,7 +112,7 @@ Durante a avaliação prática, foram identificados os seguintes problemas:
 
 ---
 
-###  M3 – Número de tarefas essenciais que exigem *workarounds*
+###  **M3 – Número de tarefas essenciais que exigem *workarounds***
 
 Durante o uso, foram necessários contornos (workarounds) nas seguintes situações:
 
@@ -125,7 +125,7 @@ Durante o uso, foram necessários contornos (workarounds) nas seguintes situaç�
 
 ---
 
-###  Conclusão
+###  **Conclusão**
 
 A execução mostra que o AgroMart **possui boa base funcional**, mas ainda apresenta:
 
@@ -137,14 +137,14 @@ A execução mostra que o AgroMart **possui boa base funcional**, mas ainda apre
 
 Com base nisso, recomenda-se priorizar a **correção dos erros identificados** e a **finalização das funcionalidades pendentes** antes de uma entrega oficial do produto.
 
-##  3️ Portabilidade
+##  **3️ Portabilidade**
 
-###  Objetivo  
+###  **Objetivo**  
 Avaliar a capacidade do AgroMart de funcionar corretamente em diferentes ambientes operacionais com o mínimo de reconfiguração.
 
 ---
 
-###  Questões Investigadas  
+###  **Questões Investigadas**  
 
 - O sistema pode ser executado em diferentes navegadores e sistemas operacionais?  
 
@@ -154,7 +154,7 @@ Avaliar a capacidade do AgroMart de funcionar corretamente em diferentes ambient
 
 ---
 
-###  Hipóteses Avaliadas  
+###  **Hipóteses Avaliadas**  
 **H1**: O sistema mantém comportamento consistente em diferentes ambientes operacionais e navegadores.  
 
 **H2**: A execução do sistema ocorre sem a necessidade de ajustes não documentados.  
@@ -163,7 +163,7 @@ Avaliar a capacidade do AgroMart de funcionar corretamente em diferentes ambient
 
 ---
 
-###  Métricas e Resultados
+###  **Métricas e Resultados**
 
 **M1**: *Número de ambientes suportados sem necessidade de alteração (SO, navegador, etc.)*  
 
@@ -196,24 +196,24 @@ Avaliar a capacidade do AgroMart de funcionar corretamente em diferentes ambient
 
 ---
 
-###  Conclusão da Avaliação – Portabilidade  
+###  **Conclusão da Avaliação – Portabilidade**  
 
 Apesar de funcionar corretamente em navegadores convencionais de desktop (Windows/Linux), o sistema apresentou **limitações significativas na portabilidade mobile**, exigindo intervenções manuais para o uso do front-end via aplicativo. As hipóteses **H1** e **H3** são **parcialmente confirmadas**, enquanto a **H2** é **refutada**, já que ajustes não documentados foram obrigatórios.
 
 > 💡 Sugere-se que a documentação seja atualizada e que seja disponibilizado novamente o aplicativo na Play Store, ou que o processo de instalação por APK seja automatizado/documentado.
 
-## 3️ Fase 4 – Execução da Avaliação – Testabilidade
+##  **4 Testabilidade**
 
 Nesta etapa, executamos a avaliação da subcaracterística **Testabilidade**, com base nas perguntas, hipóteses e métricas definidas na Fase 2, conforme a abordagem GQM.
 
 ---
 
-###  Objetivo
+###  **Objetivo**
 Avaliar a facilidade de testar o AgroMart após alterações, garantindo  estabilidade.
 
 ---
 
-###  Questões Respondidas
+###  **Questões Respondidas**
 
 **Q1: Existem testes automatizados?**  
  Sim. O sistema possui uma suíte de testes automatizados implementada com **Jest**, cobrindo os principais fluxos funcionais do AgroMart, como cadastro, autenticação e listagem de produtos.
@@ -226,7 +226,7 @@ Avaliar a facilidade de testar o AgroMart após alterações, garantindo  estabi
 
 ---
 
-### 🧪 Hipóteses Validadas
+### ** Hipóteses Validadas**
 
 **H1: O sistema possui testes automatizados que cobrem os principais fluxos de uso.**  
  Confirmada. A cobertura de testes automatizados está em **88,9%**, abrangendo rotas principais e comportamentos críticos.
@@ -239,7 +239,7 @@ Avaliar a facilidade de testar o AgroMart após alterações, garantindo  estabi
 
 ---
 
-### 📏 Métricas Coletadas
+###  **Métricas Coletadas**
 
 | Código | Métrica                                             | Resultado     | Interpretação |
 |--------|-----------------------------------------------------|---------------|----------------|
@@ -250,13 +250,13 @@ Avaliar a facilidade de testar o AgroMart após alterações, garantindo  estabi
 
 ---
 
-### 📋 Conclusão
+###  **Conclusão**
 
 A subcaracterística **Testabilidade** do sistema AgroMart apresenta **ótimo desempenho geral**, com indicadores positivos em cobertura, velocidade e consistência dos testes. Apesar de alguns pontos de atenção relacionados à complexidade do código e duplicações, o sistema demonstra estar bem preparado para ser testado com eficácia durante o seu ciclo de evolução.
 
 ** A testabilidade do sistema é considerada satisfatória, com potencial de evolução contínua.**
 
-##  Referências Bibliográficas
+##  **Referências Bibliográficas**
 
 - AGROMART – Documentação Oficial do Projeto  
   [https://agromart.github.io/docs/docs/intro](https://agromart.github.io/docs/docs/intro)
