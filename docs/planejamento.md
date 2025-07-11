@@ -1,6 +1,6 @@
 # 📘 Planejamento da Avaliação de Qualidade do AgroMart
 
-## 🧭 Visão Geral do Planejamento
+##  Visão Geral do Planejamento
 
 Este planejamento estabelece a estrutura e diretrizes do processo de avaliação de qualidade aplicado ao sistema **AgroMart**, com base na norma **ISO/IEC 25010** e na metodologia **GQM (Goal-Question-Metric)**. Conforme estabelecido na norma **ISO/IEC 25040**, a avaliação da qualidade de um sistema pode ser conduzida por avaliadores independentes, sem a necessidade da participação direta de usuários finais. Isso é possível por meio de métodos como **inspeção técnica, análise estática, testes estruturados e revisão de documentação**, desde que os critérios e métricas estejam previamente definidos de forma objetiva e reprodutível.
 
@@ -35,7 +35,7 @@ Nesta fase, foi aplicado o modelo GQM para estruturar a avaliação das seguinte
 - **1️⃣ Instalabilidade**
 - **2️⃣ Adequação Funcional**
 - **3️⃣ Portabilidade**
-- **4️⃣ Manutenibilidade** (Modificabilidade e Testabilidade)
+- **4️⃣ Manutenibilidade** (Testabilidade)
 
 Cada característica foi detalhada com:
 
@@ -50,25 +50,25 @@ Cada característica foi detalhada com:
 
 ## 🔹 Fase 3 – Projeto da Avaliação
 
-### 📑 Atividades Planejadas
+###  Atividades Planejadas
 
 - Definição de **cenários de uso reais possíveis**
 - Possível criação de **roteiros manuais** para instalação, cadastro, navegação e operação do sistema
 - Estabelecimento de critérios de aceitação por cenário
 
-### 🧪 Tipos de Testes
+###  Tipos de Testes
 
 - **Testes manuais:** conduzidos pelo avaliador (Lucas Avelar) simulando usuários
 - **Testes automatizados:** rodados em pipelines CI (Continuous Integration)
 - **Análise de código e documentação:** para avaliar manutenibilidade
 
-### 📦 Instrumentos de Coleta
+###  Instrumentos de Coleta
 
 - Planilhas com tempos e erros
 - Questionários de satisfação e feedback
 - Logs de execução e relatórios do Lighthouse
 
-### 🕒 Cronograma Sugerido
+###  Cronograma Sugerido
 
 | Dia | Atividade |
 |--------|-----------|

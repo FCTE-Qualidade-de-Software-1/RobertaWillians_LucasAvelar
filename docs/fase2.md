@@ -1,4 +1,4 @@
-# 📊 Fase 2 – Avaliação por GQM (Goal – Question – Metric)
+#  Fase 2 – Avaliação por GQM (Goal – Question – Metric)
 
 Esta fase utiliza a metodologia GQM (Goal–Question–Metric) para estruturar a avaliação de qualidade do sistema AgroMart com base em quatro subcaracterísticas da norma ISO/IEC 25010: Instalabilidade, Adequação Funcional, Portabilidade e Manutenibilidade (Modificabilidade e Testabilidade).
 
@@ -6,14 +6,14 @@ Conforme previsto na ISO/IEC 25040, a avaliação pode ser conduzida sem a parti
 
 ---
 
-## 1️⃣ Instalabilidade
+## 1️ Instalabilidade
 
-### 🎯 Objetivo (Goal)
+###  Objetivo (Goal)
 Avaliar a facilidade de instalação do sistema AgroMart com base em documentação, passos exigidos e erros não previstos.
 
 ---
 
-### ❓ Perguntas (Questions)
+###  Perguntas (Questions)
 - A documentação é suficiente para concluir a instalação com sucesso? 
    
 - Quantas etapas manuais são exigidas para completar a instalação?  
@@ -22,7 +22,7 @@ Avaliar a facilidade de instalação do sistema AgroMart com base em documentaç
 
 ---
 
-### 🧪 Hipóteses  
+###  Hipóteses  
 **H1**: A instalação pode ser concluída com base exclusivamente na documentação disponível.  
 
 **H2**: Usuários com conhecimento técnico moderado conseguem instalar o sistema sem grandes dificuldades.  
@@ -31,7 +31,7 @@ Avaliar a facilidade de instalação do sistema AgroMart com base em documentaç
 
 ---
 
-### 📏 Métricas (Metrics)  
+###  Métricas (Metrics)  
 **M1**: Número total de passos documentados vs. passos reais.  
 
 **M2**: Quantidade de erros ou ajustes não documentados.  
@@ -42,14 +42,14 @@ Avaliar a facilidade de instalação do sistema AgroMart com base em documentaç
 
 ---
 
-## 2️⃣ Adequação Funcional
+## 2️ Adequação Funcional
 
-### 🎯 Objetivo (Goal)
+###  Objetivo (Goal)
 Avaliar se as funcionalidades presentes no AgroMart são apropriadas e suficientes para atender às principais necessidades dos usuários.
 
 ---
 
-### ❓ Perguntas (Questions)
+###  Perguntas (Questions)
 - O sistema cobre todas as funções essenciais de venda e gestão agrícola?  
 
 - As funcionalidades funcionam corretamente?  
@@ -58,7 +58,7 @@ Avaliar se as funcionalidades presentes no AgroMart são apropriadas e suficient
 
 ---
 
-### 🧪 Hipóteses  
+###  Hipóteses  
 **H1**: O sistema cobre os principais requisitos funcionais dos usuários.  
 
 **H2**: As funcionalidades implementadas estão completas e operam de forma consistente.  
@@ -67,7 +67,7 @@ Avaliar se as funcionalidades presentes no AgroMart são apropriadas e suficient
 
 ---
 
-### 📏 Métricas (Metrics)  
+###  Métricas (Metrics)  
 **M1**: Percentual de funcionalidades esperadas implementadas.  
 
 **M2**: Número de funcionalidades com erros ou comportamento inesperado.  
@@ -76,14 +76,14 @@ Avaliar se as funcionalidades presentes no AgroMart são apropriadas e suficient
 
 ---
 
-## 3️⃣ Portabilidade
+## 3️ Portabilidade
 
-### 🎯 Objetivo (Goal)  
+###  Objetivo (Goal)  
 Avaliar a capacidade do AgroMart de funcionar corretamente em diferentes ambientes operacionais com o mínimo de reconfiguração.  
 
 ---
 
-### ❓ Perguntas (Questions)  
+###  Perguntas (Questions)  
 - O sistema pode ser executado em diferentes navegadores e sistemas operacionais?  
 
 - É necessário modificar código ou dependências para funcionar em outros ambientes?  
@@ -92,7 +92,7 @@ Avaliar a capacidade do AgroMart de funcionar corretamente em diferentes ambient
 
 ---
 
-### 🧪 Hipóteses  
+###  Hipóteses  
 **H1**: O sistema mantém comportamento consistente em diferentes ambientes operacionais e navegadores.  
 
 **H2**: A execução do sistema ocorre sem a necessidade de ajustes não documentados.  
@@ -101,7 +101,7 @@ Avaliar a capacidade do AgroMart de funcionar corretamente em diferentes ambient
 
 ---
 
-### 📏 Métricas (Metrics)  
+###  Métricas (Metrics)  
 **M1**: Número de ambientes suportados sem necessidade de alteração (sistemas operacionais, navegadores, etc.).  
 
 **M2**: Número de erros identificados ao rodar o sistema em diferentes ambientes.  
@@ -110,17 +110,17 @@ Avaliar a capacidade do AgroMart de funcionar corretamente em diferentes ambient
 
 ---
 
-## 4️⃣ Manutenibilidade 
+## 4️ Manutenibilidade 
 Aqui o foco foi em uma subcaracterística de Manutenilidade, **Testabilidade**
 
-### 4.1 🧪 Testabilidade
+### 4.1  Testabilidade
 
-### 🎯 Objetivo (Goal)  
+###  Objetivo (Goal)  
 Avaliar a facilidade de testar o AgroMart após alterações, garantindo segurança e estabilidade.
 
 ---
 
-### ❓ Perguntas (Questions)  
+###  Perguntas (Questions)  
 - Existem testes automatizados?  
 
 - Os módulos são suficientemente isolados para testes unitários?  
@@ -129,7 +129,7 @@ Avaliar a facilidade de testar o AgroMart após alterações, garantindo seguran
 
 ---
 
-### 🧪 Hipóteses  
+###  Hipóteses  
 **H1**: O sistema possui testes automatizados que cobrem os principais fluxos de uso.  
 
 **H2**: Os módulos estão suficientemente desacoplados, permitindo testes unitários eficazes.  
@@ -138,7 +138,7 @@ Avaliar a facilidade de testar o AgroMart após alterações, garantindo seguran
 
 ---
 
-### 📏 Métricas (Metrics)  
+###  Métricas (Metrics)  
 **M1**: Cobertura de testes automatizados (em %).  
 
 **M2**: Tempo médio para escrever e executar testes.  
