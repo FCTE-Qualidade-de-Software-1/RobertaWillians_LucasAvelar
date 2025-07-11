@@ -1,6 +1,6 @@
-# 📘 Planejamento da Avaliação de Qualidade do AgroMart
+# ** Planejamento da Avaliação de Qualidade do AgroMart**
 
-##  Visão Geral do Planejamento
+##  **Visão Geral do Planejamento**
 
 Este planejamento estabelece a estrutura e diretrizes do processo de avaliação de qualidade aplicado ao sistema **AgroMart**, com base na norma **ISO/IEC 25010** e na metodologia **GQM (Goal-Question-Metric)**. Conforme estabelecido na norma **ISO/IEC 25040**, a avaliação da qualidade de um sistema pode ser conduzida por avaliadores independentes, sem a necessidade da participação direta de usuários finais. Isso é possível por meio de métodos como **inspeção técnica, análise estática, testes estruturados e revisão de documentação**, desde que os critérios e métricas estejam previamente definidos de forma objetiva e reprodutível.
 
@@ -13,6 +13,32 @@ O plano está dividido em quatro fases principais:
 4. Fase 4 – Execução e Coleta de Métricas
 5. Gestão do projeto
 6. Apresentação do projeto
+
+###  **Calendário de Execução**
+
+O projeto foi dividido em **4 dias principais de execução**, com organização clara das entregas por fase:
+
+| **Dia** | **Atividades Executadas**                                                                 |
+|--------|---------------------------------------------------------------------------------------------|
+| **Dia 1** | Leitura da proposta  
+Análise do sistema AgroMart  
+Definição da metodologia e estrutura do projeto |
+| **Dia 2** | Desenvolvimento da **Fase 1** (Escopo e metas)  
+Criação do GQM e definição das características a serem avaliadas |
+| **Dia 3** | Elaboração da **Fase 3** (Projeto da Avaliação)  
+Início da **Fase 4**, com execução das métricas de Instalabilidade e Adequação |
+| **Dia 4** | Finalização da **Fase 4** com Portabilidade e Manutenibilidade  
+Elaboração da Gestão do Projeto e revisão geral |
+
+---
+
+###  **Ferramentas Utilizadas**
+
+- **Visual Studio Code**: edição dos documentos em Markdown
+- **GitHub**: controle de versão e estruturação do site em GitHub Pages
+- **MkDocs**: geração e visualização do projeto em formato navegável
+- **WhatsApp**: registro pessoal de ideias e planejamento informal
+- **Google Docs**: apoio em rascunhos, brainstorming e referências externas
 
 ---
 
@@ -28,7 +54,7 @@ Nesta fase, foi definido:
 
 ---
 
-## 🔹 Fase 2 – Especificação com GQM e ISO/IEC 25010
+## **🔹 Fase 2 – Especificação com GQM e ISO/IEC 25010**
 
 Nesta fase, foi aplicado o modelo GQM para estruturar a avaliação das seguintes subcaracterísticas da ISO/IEC 25010:
 
@@ -48,46 +74,46 @@ Cada característica foi detalhada com:
 
 ---
 
-## 🔹 Fase 3 – Projeto da Avaliação
+## 🔹 **Fase 3 – Projeto da Avaliação**
 
-###  Atividades Planejadas
+###  **Atividades Planejadas**
 
 - Definição de **cenários de uso reais possíveis**
 - Possível criação de **roteiros manuais** para instalação, cadastro, navegação e operação do sistema
 - Estabelecimento de critérios de aceitação por cenário
 
-###  Tipos de Testes
+###  **Tipos de Testes**
 
 - **Testes manuais:** conduzidos pelo avaliador (Lucas Avelar) simulando usuários
 - **Testes automatizados:** rodados em pipelines CI (Continuous Integration)
 - **Análise de código e documentação:** para avaliar manutenibilidade
 
-###  Instrumentos de Coleta
+###  **Instrumentos de Coleta**
 
 - Planilhas com tempos e erros
 - Questionários de satisfação e feedback
 - Logs de execução e relatórios do Lighthouse
 
-###  Cronograma Sugerido
+###  **Cronograma Sugerido**
 
 | Dia | Atividade |
 |--------|-----------|
-| 1 | Planejamento e definição dos cenários e critérios |
+| 2 | Planejamento e definição dos cenários e critérios |
 | 2 | Execução de testes automatizados |
-| 2 | Sessões de testes manuais com coleta de dados |
-| 3 | Análise, consolidação dos resultados e relatórios |
+| 3 | Sessões de testes manuais com coleta de dados |
+| 4 | Análise, consolidação dos resultados e relatórios |
 
 ---
 
-## 🔹 Fase 4 – Execução e Coleta de Métricas
+## 🔹 **Fase 4 – Execução e Coleta de Métricas**
 
-### 📥 Execução dos testes
+###  **Execução dos testes**
 
 - Realizada pelo avaliador com base nos roteiros definidos
 - Registro dos resultados e comparação com critérios definidos
 - Uso de ferramentas como Lighthouse CI, cronômetro digital, formulários e planilhas
 
-### 📊 Análise das Métricas
+###  **Análise das Métricas**
 
 As métricas obtidas serão confrontadas com as hipóteses levantadas na Fase 2 para verificar:
 
@@ -97,7 +123,7 @@ As métricas obtidas serão confrontadas com as hipóteses levantadas na Fase 2 
 
 ---
 
-## ✅ Resultados Esperados
+##  **Resultados Esperados**
 
 - Diagnóstico da qualidade do AgroMart em quatro frentes técnicas
 - Relatório estruturado para orientar melhorias futuras
