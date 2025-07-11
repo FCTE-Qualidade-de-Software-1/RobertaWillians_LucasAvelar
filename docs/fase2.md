@@ -88,7 +88,7 @@ Avaliar a capacidade do AgroMart de funcionar corretamente em diferentes ambient
 
 - É necessário modificar código ou dependências para funcionar em outros ambientes?  
 
-- O comportamento é consistente entre plataformas?  
+  
 
 ---
 
@@ -110,45 +110,10 @@ Avaliar a capacidade do AgroMart de funcionar corretamente em diferentes ambient
 
 ---
 
-## 4️⃣ Manutenibilidade
+## 4️⃣ Manutenibilidade 
+Aqui o foco foi em uma subcaracterística de Manutenilidade, **Testabilidade**
 
-### 4.1 🔧 Modificabilidade
-
-### 🎯 Objetivo (Goal)  
-Avaliar a facilidade de alterar funcionalidades do AgroMart, considerando impacto no código e dependências.
-
----
-
-### ❓ Perguntas (Questions)  
-- É possível modificar funcionalidades sem impactar outras partes? 
-   
-- As alterações requerem entendimento de muitos módulos? 
-   
-- Qual o grau de acoplamento entre componentes?  
-
----
-
-### 🧪 Hipóteses  
-**H1**: O sistema é modular o suficiente para permitir alterações locais sem impactos colaterais.  
-
-**H2**: Há documentação e comentários suficientes que auxiliam na compreensão do código.  
-
-**H3**: Alterações simples são realizadas com mudanças mínimas em arquivos distintos.  
-
----
-
-### 📏 Métricas (Metrics)  
-**M1**: Número de arquivos alterados por modificação.  
-
-**M2**: Tempo médio para entender a lógica antes de alterar.  
-
-**M3**: Cobertura de comentários ou documentação técnica no código.  
-
-**M4**: Número médio de dependências entre módulos modificados.  
-
----
-
-### 4.2 🧪 Testabilidade
+### 4.1 🧪 Testabilidade
 
 ### 🎯 Objetivo (Goal)  
 Avaliar a facilidade de testar o AgroMart após alterações, garantindo segurança e estabilidade.

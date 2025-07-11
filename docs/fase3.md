@@ -8,7 +8,15 @@ Este plano serve como guia prático para conduzir a avaliação do sistema AgroM
 
 ## Método de Avaliação
 
-A avaliação será realizada com base nas características de **adequação funcional**, **portabilidade**, **manutenibilidade** e **instalabilidade**. Para isso, serão utilizados testes manuais, observação direta e análise baseada na abordagem **GQM (Goal-Question-Metric)**. As coletas envolverão tarefas simuladas pela própria equipe avaliadora, considerando fluxos comuns de uso do AgroMart.
+serão utilizados testes manuais, observação direta e análise baseada na abordagem GQM, com foco nas seguintes subcaracterísticas definidas na Fase 2:
+
+- **Instalabilidade**: através da simulação de instalação em ambiente limpo;
+
+- **Adequação Funcional**: por meio da execução de funcionalidades principais;
+
+- **Portabilidade**: testando o sistema em diferentes navegadores;
+
+- **Manutenibilidade**: por meio da análise de código-fonte e documentação disponível.
 
 ## Instruções de Aplicação
 
@@ -46,11 +54,24 @@ A avaliação será considerada bem-sucedida se **70% ou mais das métricas atin
 
 | Etapa                                   | Data de Início | Data de Conclusão | Responsável       |
 |----------------------------------------|----------------|-------------------|-------------------|
-| Execução dos testes manuais            | 05/07/2025     | 06/07/2025        | Lucas Avelar      |
-| Consolidação dos dados coletados       | 06/07/2025     | 07/07/2025        | Lucas Avelar      |
-| Análise e relatório final da Fase 3    | 07/07/2025     | 08/07/2025        | Lucas Avelar      |
+| Execução dos testes manuais            | 09/07/2025     | 10/07/2025        | Lucas Avelar      |
+| Consolidação dos dados coletados       | 09/07/2025     | 11/07/2025        | Lucas Avelar      |
+| Análise e relatório final da Fase 3    | 09/07/2025     | 11/07/2025        | Lucas Avelar      |
 
 ## Conclusão
 
 Esta fase estabelece o plano necessário para executar uma avaliação eficiente e alinhada com as características mais relevantes do AgroMart. O foco está em simular o uso real do sistema, coletar dados confiáveis e gerar insights aplicáveis à melhoria contínua da aplicação. A estrutura escolhida garante rastreabilidade, clareza de objetivos e a possibilidade de reproduzir o processo futuramente com consistência.
 
+## 📚 Referências Bibliográficas
+
+- AGROMART – Documentação Oficial do Projeto  
+  [https://agromart.github.io/docs/docs/intro](https://agromart.github.io/docs/docs/intro)
+
+- ISO/IEC 25010 – Systems and Software Quality Requirements and Evaluation (SQuaRE)  
+  [https://iso25000.com/index.php/en/iso-25000-standards/iso-25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
+
+- ISO/IEC 25040 – Evaluation process  
+  [https://iso25000.com/index.php/en/iso-25000-standards/iso-25040](https://iso25000.com/index.php/en/iso-25000-standards/iso-25040)
+
+- ONU – Objetivos de Desenvolvimento Sustentável (ODS)  
+  [https://brasil.un.org/pt-br/sdgs](https://brasil.un.org/pt-br/sdgs)
