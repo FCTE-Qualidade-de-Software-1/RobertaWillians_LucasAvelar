@@ -1,0 +1,764 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../fase1/">
+      
+      
+        <link rel="next" href="../fase3/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
+    
+    
+      
+        <title>Fase 2 - GQM e Características - Trabalho de Qualidade - AgroMart</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#fase-2-avaliacao-por-gqm-goal-question-metric" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href=".." title="Trabalho de Qualidade - AgroMart" class="md-header__button md-logo" aria-label="Trabalho de Qualidade - AgroMart" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Trabalho de Qualidade - AgroMart
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Fase 2 - GQM e Características
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="light-blue"  aria-label="Modo Escuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo Escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Trabalho de Qualidade - AgroMart" class="md-nav__button md-logo" aria-label="Trabalho de Qualidade - AgroMart" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Trabalho de Qualidade - AgroMart
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planejamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fase1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fase 1 - Escopo e Metas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Fase 2 - GQM e Características
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Fase 2 - GQM e Características
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-instalabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣ Instalabilidade
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-adequacao-funcional" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣ Adequação Funcional
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-portabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      3️⃣ Portabilidade
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-manutenibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      4️⃣ Manutenibilidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4️⃣ Manutenibilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-modificabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 🔧 Modificabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-testabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 🧪 Testabilidade
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fase3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fase 3 - Projeto da Avaliação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fase4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fase 4 - Execução e Métricas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gestao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gestão do Projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apresentacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-instalabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣ Instalabilidade
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-adequacao-funcional" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣ Adequação Funcional
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-portabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      3️⃣ Portabilidade
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-manutenibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      4️⃣ Manutenibilidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4️⃣ Manutenibilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-modificabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 🔧 Modificabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-testabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 🧪 Testabilidade
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="fase-2-avaliacao-por-gqm-goal-question-metric">📊 Fase 2 – Avaliação por GQM (Goal – Question – Metric)</h1>
+<p>Esta fase utiliza a metodologia GQM (Goal–Question–Metric) para estruturar a avaliação de qualidade do sistema AgroMart com base em quatro subcaracterísticas da norma ISO/IEC 25010: Instalabilidade, Adequação Funcional, Portabilidade e Manutenibilidade (Modificabilidade e Testabilidade).</p>
+<p>Conforme previsto na ISO/IEC 25040, a avaliação pode ser conduzida sem a participação direta de usuários finais, utilizando métodos como inspeção técnica, análise de execução e revisão de documentação.</p>
+<p>As caractetisticas e o nível de empenha nas avaliações é de 1 a 5, sendo 1 zero interesse 5 muito interesse. Representado na tabela abaixo:</p>
+<table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>Ênfase</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adequação Funcional</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Portabilidade</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Manutenibilidade</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Eficiência de Desempenho</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Confiabilidade</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Segurança</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Compatibilidade</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Usabilidade</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="1-instalabilidade">1️⃣ Instalabilidade</h2>
+<p><strong>Objetivo (Goal):</strong><br />
+Avaliar a facilidade de instalação do sistema AgroMart com base em documentação, passos exigidos e erros não previstos.</p>
+<p><strong>Perguntas (Questions):</strong>
+- A documentação é suficiente para concluir a instalação com sucesso?
+- Quantas etapas manuais são exigidas para completar a instalação?
+- Quantos erros não documentados ocorrem durante a instalação?</p>
+<p><strong>Hipóteses:</strong>
+- A instalação exige passos não descritos na documentação.
+- Usuários com conhecimento técnico moderado enfrentam obstáculos.
+- O processo de instalação não foi pensado para usuários não desenvolvedores.</p>
+<p><strong>Métricas (Metrics):</strong>
+- Número total de passos documentados vs. passos reais.
+- Quantidade de erros ou ajustes não documentados.
+- Tempo médio de instalação (em minutos).
+- Número de configurações manuais ou arquivos criados/ajustados.</p>
+<hr />
+<h2 id="2-adequacao-funcional">2️⃣ Adequação Funcional</h2>
+<p><strong>Objetivo (Goal):</strong><br />
+Avaliar se as funcionalidades presentes no AgroMart são apropriadas e suficientes para atender às principais necessidades dos usuários.</p>
+<p><strong>Perguntas (Questions):</strong>
+- O sistema cobre todas as funções essenciais de venda e gestão agrícola?
+- As funcionalidades funcionam corretamente?
+- Há funcionalidades ausentes que impactam o uso?</p>
+<p><strong>Hipóteses:</strong>
+- O sistema cobre parcialmente os requisitos funcionais esperados.
+- Algumas funcionalidades estão incompletas ou inconsistentes.
+- A ausência de certas funções limita o uso do sistema.</p>
+<p><strong>Métricas (Metrics):</strong>
+- Percentual de funcionalidades esperadas implementadas.
+- Número de funcionalidades com erros ou comportamento inesperado.
+- Número de tarefas essenciais que exigem workarounds.</p>
+<hr />
+<h2 id="3-portabilidade">3️⃣ Portabilidade</h2>
+<p><strong>Objetivo (Goal):</strong><br />
+Avaliar a capacidade do AgroMart de funcionar corretamente em diferentes ambientes operacionais com o mínimo de reconfiguração.</p>
+<p><strong>Perguntas (Questions):</strong>
+- O sistema pode ser executado em diferentes navegadores e sistemas operacionais?
+- É necessário modificar código ou dependências para funcionar em outros ambientes?
+- O comportamento é consistente entre plataformas?</p>
+<p><strong>Hipóteses:</strong>
+- O sistema apresenta inconsistências em diferentes ambientes.
+- A execução exige ajustes não documentados.
+- Existem falhas ao trocar de ambiente ou navegador.</p>
+<p><strong>Métricas (Metrics):</strong>
+- Número de ambientes suportados sem alteração (SO, navegador, etc.).
+- Número de erros ao rodar o sistema em ambientes distintos.
+- Número de alterações necessárias para adaptação.</p>
+<hr />
+<h2 id="4-manutenibilidade">4️⃣ Manutenibilidade</h2>
+<h3 id="41-modificabilidade">4.1 🔧 Modificabilidade</h3>
+<p><strong>Objetivo (Goal):</strong><br />
+Avaliar a facilidade de alterar funcionalidades do AgroMart, considerando impacto no código e dependências.</p>
+<p><strong>Perguntas (Questions):</strong>
+- É possível modificar funcionalidades sem impactar outras partes?
+- As alterações requerem entendimento de muitos módulos?
+- Qual o grau de acoplamento entre componentes?</p>
+<p><strong>Hipóteses:</strong>
+- O sistema possui alto acoplamento.
+- A ausência de comentários/documentação dificulta alterações.
+- Alterações simples exigem múltiplas modificações em cascata.</p>
+<p><strong>Métricas (Metrics):</strong>
+- Número de arquivos alterados por modificação.
+- Tempo médio para entender a lógica antes de alterar.
+- Cobertura de comentários ou documentação técnica.
+- Número médio de dependências entre módulos.</p>
+<hr />
+<h3 id="42-testabilidade">4.2 🧪 Testabilidade</h3>
+<p><strong>Objetivo (Goal):</strong><br />
+Avaliar a facilidade de testar o AgroMart após alterações, garantindo segurança e estabilidade.</p>
+<p><strong>Perguntas (Questions):</strong>
+- Existem testes automatizados?
+- Os módulos são suficientemente isolados para testes unitários?
+- O tempo para escrever e executar testes é viável?</p>
+<p><strong>Hipóteses:</strong>
+- O sistema não possui testes automatizados.
+- O baixo desacoplamento dificulta testes isolados.
+- A ausência de testes compromete a agilidade de manutenção.</p>
+<p><strong>Métricas (Metrics):</strong>
+- Cobertura de testes automatizados (em %).
+- Tempo médio para escrever e executar testes.
+- Quantidade de testes manuais por alteração.
+- Tempo médio total do ciclo de teste após mudanças.</p>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      
+    
+  </body>
+</html>
