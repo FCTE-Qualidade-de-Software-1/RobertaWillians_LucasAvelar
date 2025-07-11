@@ -1,6 +1,6 @@
 # Roberta Willians – Pioneira dos Jogos de Aventura
 
-![Roberta Willians](imagens/Rw.png) 
+![Roberta Willians](images/Rw.png) 
 
 Roberta Willians é considerada uma das primeiras designers de jogos da história, sendo cofundadora da Sierra On-Line e criadora de franquias como *King's Quest*. Sua contribuição foi fundamental para os jogos de narrativa e aventura nos anos 80 e 90.
 
