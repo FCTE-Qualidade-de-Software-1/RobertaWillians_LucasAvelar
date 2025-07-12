@@ -11,7 +11,7 @@ A avaliação será conduzida por meio de testes direcionados, inspeções técn
 - Execução de scripts automatizados (quando aplicável).
 - Inspeção de comportamento em diferentes ambientes e navegadores.
 
-Serão utilizados tanto métodos **quantitativos** (tempo, número de erros, etapas de instalação) quanto **qualitativos** (percepção de clareza, fluidez e robustez do sistema), com foco em duas subcaracterísticas principais: **Confiabilidade** e **Usabilidade**.
+Serão utilizados tanto métodos **quantitativos** (tempo, número de erros, etapas de instalação) quanto **qualitativos** (percepção de clareza, fluidez e robustez do sistema).
 
 ## 1️ **Instalabilidade**
 

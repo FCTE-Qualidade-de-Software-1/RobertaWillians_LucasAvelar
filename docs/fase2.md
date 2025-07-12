@@ -18,7 +18,7 @@ Para garantir alinhamento metodológico e clareza na avaliação, esta fase tem 
 |                        | - Instalabilidade                                                         |
 |                        | - Adequação Funcional                                                     |
 |                        | - Portabilidade                                                           |
-|                        | - Manutenibilidade (Modificabilidade e Testabilidade)                     |
+|                        | - Manutenibilidade (Testabilidade)                     |
 | **Do ponto de vista de**| Equipe de Desenvolvimento                                                 |
 | **No contexto de**     | Avaliação de Qualidade de Software com base na norma ISO/IEC 25010 e 25040 |
 

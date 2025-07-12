@@ -1,4 +1,4 @@
-# ** Planejamento da Avaliação de Qualidade do AgroMart**
+# **Planejamento da Avaliação de Qualidade do AgroMart**
 
 ##  **Visão Geral do Planejamento**
 
