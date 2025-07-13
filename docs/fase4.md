@@ -69,7 +69,7 @@ Avaliar se as funcionalidades presentes no AgroMart são apropriadas e suficient
 
 ### **M1 – Percentual de funcionalidades esperadas implementadas**
 
-Foram definidos **5 requisitos funcionais essenciais** com base no escopo do AgroMart serão esses: criar conta, cadstro de enderço, comprar cestas, relatórios, login e boões home, busca, meus dados, sair, adicionar.
+Foram definidos **10 requisitos funcionais essenciais** com base no escopo do AgroMart serão esses: criar conta, cadstro de enderço, comprar cestas, relatórios, login e boões home, busca, meus dados, sair, adicionar.
 
 - Funcionalidades totalmente implementadas: **8**
 
@@ -229,7 +229,7 @@ Avaliar a facilidade de testar o AgroMart após alterações, garantindo  estabi
 ### ** Hipóteses Validadas**
 
 **H1: O sistema possui testes automatizados que cobrem os principais fluxos de uso.**  
- Confirmada. A cobertura de testes automatizados está em **88,9%**, abrangendo rotas principais e comportamentos críticos.
+ Confirmada. A cobertura de testes automatizados está superior A **80%**, abrangendo rotas principais e comportamentos críticos.
 
 **H2: Os módulos estão suficientemente desacoplados, permitindo testes unitários eficazes.**  
 ⚠️ Parcialmente confirmada. Apesar da estrutura modular, a presença de **código duplicado** e **complexidade elevada** em certas funções dificulta o isolamento ideal para testes unitários em alguns pontos.

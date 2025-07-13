@@ -20,3 +20,7 @@ nav:
   - Fase 3 - Projeto da Avaliação: fase3.md
   - Fase 4 - Execução e Métricas: fase4.md
   - Apresentação: apresentacao.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
