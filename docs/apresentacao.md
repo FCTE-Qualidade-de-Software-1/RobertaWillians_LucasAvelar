@@ -16,10 +16,8 @@
 
 ## 🎥 Gravação da Apresentação
 
-<!-- Vídeo do SharePoint -->
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.25%; margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <iframe src="https://unbbr.sharepoint.com/sites/pessoal304/_layouts/15/embed.aspx?UniqueId=737f285d-78b9-4812-aa38-7046588ac860&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
-    width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="Reunião AgroMart - Gravação">
-  </iframe>
-</div>
+## 🎥 Gravação da Apresentação
+
+🔗 **Assistir agora:**  
+👉 [🎬 Gravação da Apresentação – SharePoint (abrir em nova aba)](https://unbbr.sharepoint.com/sites/pessoal304/_layouts/15/embed.aspx?UniqueId=737f285d-78b9-4812-aa38-7046588ac860){:target="_blank"}
+Parte efetiva da apresentação ate os 17:03 Pós isso é dito somente o potencial do agromart fora do escopo principal da avaliação.
